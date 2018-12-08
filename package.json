@@ -15,6 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage":"https://github.com/KIMKUNGJONG/movie_app",
   "eslintConfig": {
     "extends": "react-app"
   },
