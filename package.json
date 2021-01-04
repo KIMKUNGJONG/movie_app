@@ -2,8 +2,8 @@
   "name": "movie_app",
   "version": "0.1.0",
   "private": true,
-  "proxy" : "https://kimkyungjong.github.io/movie_app/",
   "dependencies": {
+    "cors": "^2.8.5",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -24,5 +24,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "https://yts.mx"
 }
