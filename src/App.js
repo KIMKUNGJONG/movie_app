@@ -73,7 +73,11 @@ class App extends Component {
     })
   }
   _callApi = () => {
-    return fetch('https://yts.mx/api/v2/list_movies.json?sort_by=download_count')
+    return fetch('https://yts.mx/api/v2/list_movies.json?sort_by=download_count', {
+      header : {
+        'Access-Control-Allow-Origin': 'https://kimkyungjong.github.io'
+      }
+    })
     .then(response => response.json())//then은 fetch의 결과물을 오직 한개의 attr로 받아온다.
     .then(json => json.data.movies)
     .catch(err => console.log(err))

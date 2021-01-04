@@ -28,7 +28,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "https://kimkyungjong.github.io",
   "devDependencies": {
     "gh-pages": "^3.1.0"
   }
